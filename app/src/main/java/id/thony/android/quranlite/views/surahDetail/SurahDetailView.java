@@ -372,7 +372,7 @@ public class SurahDetailView extends WrapperView implements ViewCallback {
 
         boolean basmalahAddedProgrammatically = false;
 
-        if (surahDetail.getNumber() != 1) {
+        if (surahDetail.getNumber() != 1 && surahDetail.getNumber() != 9 ) {
             this.ayahViewTypeList.add(new AyahDetailViewType.BasmalahViewModel());
             basmalahAddedProgrammatically = true;
         }
